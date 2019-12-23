@@ -12,8 +12,8 @@ Steps taken:
 3. `npm i` to create a _package-lock.json_ file and the _node_modules_ folder of stuff -- update _scripts_ with `"start": "node server.js"` or with `nodemon` -- unsure what the tradeoffs are of using one over the other
 4. Download dependencies via `npm i`: express, helmet, sqlite3, node, nodemon, cors, dotenv
 5. Run `npx create-react-app <app-name>` to create new react app (used to be able to do it via npm, but the new standards recommend doing it this way now)
-6. Add an _api_ folder with a _server.js_ file and an _index.js_ file to the root folder. You have to add some content to the index file to run localhost. (*Note--if you have downloaded dotenv, create a _.env_ file to add _PORT=XXXX_ for the index file.)
-
+6. Add an _api_ folder with a _server.js_ file and an _index.js_ file to the root folder. You have to add some content to the index and server files to run localhost for the react app. (*Note--if you have downloaded dotenv, create a _.env_ file to add _PORT=XXXX_ for the index file.)
+    6a. In _server.js_ import the dependencies you added via npm, and set your routes.
 
 
 
